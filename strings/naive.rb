@@ -1,5 +1,6 @@
-input = "aaacafd knafanndfaldnalndamldaldmandadam.da.damdaacb"
-pattern = 'aacb'
+input ="bbaabbbbbaabbaabbbbbbabbbabaabbbabbabbbbababbbabbabaaababbbaabaaaba"
+
+pattern = "babaaa"
 
 (0..(input.length-pattern.length)).each do |index|
   inner_index = 0
